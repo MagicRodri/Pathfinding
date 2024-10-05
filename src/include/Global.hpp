@@ -1,5 +1,9 @@
 #pragma once
 
+#include <cfloat>
+#include <cmath>
+#include <algorithm>
+
 namespace gbl
 {
 	namespace PATHFINDING

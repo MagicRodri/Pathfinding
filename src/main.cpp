@@ -2,14 +2,15 @@
 #include <chrono>
 #include <queue>
 #include <SFML/Graphics.hpp>
+#include <cmath>
 
-#include "Headers/DrawText.hpp"
-#include "Headers/Global.hpp"
-#include "Headers/DrawMap.hpp"
-#include "Headers/GetMouseCell.hpp"
-#include "Headers/Astar.hpp"
-#include "Headers/BFS.hpp"
-#include "Headers/Dijkstra.hpp"
+#include "DrawText.hpp"
+#include "Global.hpp"
+#include "DrawMap.hpp"
+#include "GetMouseCell.hpp"
+#include "Astar.hpp"
+#include "BFS.hpp"
+#include "Dijkstra.hpp"
 
 //Hey, you wanna play a game?
 //I'm gonna think of a number between 1 and 20 and you need to guess what it is.
