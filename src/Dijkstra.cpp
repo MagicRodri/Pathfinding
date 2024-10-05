@@ -3,9 +3,9 @@
 #include <map>
 #include <queue>
 
-#include "Headers/Global.hpp"
-#include "Headers/Dijkstra.hpp"
-#include "Headers/GetAdjacentCells.hpp"
+#include "Global.hpp"
+#include "Dijkstra.hpp"
+#include "GetAdjacentCells.hpp"
 
 DijkstraComparison::DijkstraComparison(gbl::Map<float>* i_distances) :
 	distances(i_distances)

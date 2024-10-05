@@ -2,9 +2,9 @@
 #include <chrono>
 #include <SFML/Graphics.hpp>
 
-#include "Headers/Global.hpp"
-#include "Headers/GetAdjacentCells.hpp"
-#include "Headers/GetCell.hpp"
+#include "Global.hpp"
+#include "GetAdjacentCells.hpp"
+#include "GetCell.hpp"
 
 std::vector<gbl::Position<>> get_adjacent_cells(const gbl::Position<>& i_cell, const gbl::Map<>& i_map)
 {

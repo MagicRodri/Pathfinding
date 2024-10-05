@@ -3,9 +3,9 @@
 #include <map>
 #include <vector>
 
-#include "Headers/Global.hpp"
-#include "Headers/Astar.hpp"
-#include "Headers/GetAdjacentCells.hpp"
+#include "Global.hpp"
+#include "Astar.hpp"
+#include "GetAdjacentCells.hpp"
 
 float calculate_h_score(const gbl::Position<>& i_cell_0, const gbl::Position<>& i_cell_1)
 {

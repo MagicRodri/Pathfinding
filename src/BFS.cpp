@@ -3,9 +3,9 @@
 #include <map>
 #include <queue>
 
-#include "Headers/Global.hpp"
-#include "Headers/BFS.hpp"
-#include "Headers/GetAdjacentCells.hpp"
+#include "Global.hpp"
+#include "BFS.hpp"
+#include "GetAdjacentCells.hpp"
 
 bool bfs_search(unsigned short& i_path_length, unsigned short& i_total_checks, std::chrono::microseconds& i_duration, std::map<gbl::Position<>, gbl::Position<>>& i_previous_cell, std::queue<gbl::Position<>>& i_path_queue, gbl::Map<float>& i_distances, const gbl::Position<>& i_finish_position, const gbl::Position<>& i_start_position, gbl::Map<>& i_map)
 {
